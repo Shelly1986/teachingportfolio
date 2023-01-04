@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:ital,wght@1,300&display=swap');
+body {
+  font-family: Orbitron;
+  background: #d0ece3;
+  color: rgb(14, 88, 82);
+  
+}
+
+h2{
+  border-bottom: 4px dashed rgb(14, 88, 82);
+  display: inline;
+}
+
+.heading {
+  color: black;
+  height: 80px;
+  display:flex;
+  background-color: rgb(238, 67, 101);
+  border-radius: 20px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  box-shadow: 20px 20px 40px 20px #074b45;
+  font-family: Orbitron;
+}
+
+.heading img{
+  width: 80px;
+  height: 50px;
+  background: none;
+
+}
+
+.container {
+  display:flex;
+  margin-inline: 10px;
+}
+
+.intro {
+  width: 900px;
+  margin-left: 10px;
+  text-align: justify;
+  padding-right: 30px;
+  padding-left: 20px;
+
+}
+
+.intro p{
+  font-family: Josefin Sans;
+  font-size: 20px;
+}
+
+.sidebar img {
+  width: 380px;
+  height:250px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  
+}
+
+button{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(238, 67, 101);
+  margin: 20px;
+  color: black;
+  border-radius: 15%;
+  border-color: white;
+}
+
+button:hover{
+  background-color: white;
+  color:rgb(238, 67, 101)
+}
+
+input[type=text]
+{
+  width: 200px;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+
+textarea {
+  width: 215px;
+  height: 200px;
+  resize: none;
+}
+
+.topbar{
+  text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(238, 67, 101);
+  margin: 20px;
+  color: black;
+  border-radius: 15%;
+  border-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ebf1eb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration:solid;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ebf1eb;}
+
+.wrapper{
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+}
+
+.panel {
+  background-color: #074b45;;
+  height: 70vh;
+  width: 80vw;
+  margin-left: 10px;
+  border-radius: 50px;
+  flex: 0.9;
+  transition: 0.7s linear;
+  color: white;
+}
+
+.panel.active {
+  flex-grow: 6;
+}
+
+.panel.active h3{
+  opacity: 1;
+}
+
+.panel h3{
+  font-family: Josefin Sans;
+  font-size: 30px;
+  margin-top:30px;
+  margin-left: 20px;
+  opacity: 0;
+}
+
+.panel p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.panel.active p{
+  opacity: 1;
+}
+
+.panel a{
+  color:white;
+  font-family: Josefin Sans;
+  margin-left: 20px;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.panel.active a{
+  opacity: 1;
+}
+
+.project1{
+  width: 90vw;
+  height: 6000px;
+  background-color: #074b45;
+  margin-left: 50px;
+  color: white;
+}
+
+.project1 p{
+  padding-top: 1px;
+  padding-left: 45px;
+  padding-right: 30px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.project1 h3{
+  text-decoration: underline;
+  padding-top: 1px;
+  padding-left: 45px;
+  padding-right: 30px;
+  font-family: Josefin Sans;
+  font-size: 22px;
+}
+
+.project1 a{
+  color: rgb(98, 187, 238);
+}
+
+li{
+  font-size: 18px;
+}
+p{
+  font-size: 18px;
+}
+
+pre{
+  font-size: 18px;
+}
+
+
